@@ -1,0 +1,21 @@
+.header{
+    position: sticky;
+    display: flex;
+   justify-content:flex-start;
+   align-items: center;
+   height: 60px;
+   top: 0;
+    background-color: white;
+
+}
+
+.logo{
+   margin:0px 30px;
+  
+}
+.title{
+ font-style:bold;
+ margin-left:20px;
+ font-size:20px;
+ color:#F57C00;
+}
