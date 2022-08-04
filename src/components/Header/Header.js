@@ -1,3 +1,5 @@
+import Navigation from "../Navigation/Navigation";
+
 import style from "./Header.module.css";
 
 const Header=()=>{
@@ -11,6 +13,7 @@ const Header=()=>{
         <div className={style.header}>
             <div className={style.logo}>{logo}</div>
             <div className={style.title}>{title}</div>
+          
         </div>
     )
 }
