@@ -6,13 +6,11 @@ import Products from "./pages/Products/Products";
 
 
 import Header from "./components/Header/Header";
-import Navigation from "./components/Navigation/Navigation";
 
 const App=()=> {
   return (
     <div className="App">
      <Header></Header>
-    <Navigation></Navigation>
      <Routes>
        <Route path="/home" element={<Home/>}/>
        <Route path="/aboutus" element={<AboutUs/>}/>
