@@ -1,0 +1,77 @@
+[
+  {
+    "id":1,
+    "name":"2 büyük boy pizza",
+    "price":80.99,
+    "contents":"Mantar sucuk,mısır sucuk peynir",
+    "img":["https://i.pinimg.com/564x/e7/a1/4a/e7a14a99f6fb83f6c80ffb4dc0751681.jpg"]
+  },
+  {
+    "id":2,
+    "name":"Sucuklu Pizza",
+    "price":40,
+    "contents":"Sucuk ve peynir",
+     "img":["https://i.pinimg.com/564x/71/06/23/710623fb2f7f8b2f0325b3e81149c30a.jpg"]
+    
+  },
+  {
+    "id":3,
+    "name":"Peynirli pizza",
+    "price":30.99,
+    "contents":"Bol peynirli",
+    "img":["https://i.pinimg.com/564x/9e/d2/da/9ed2daeb759cdc40d6f1d922aef1906f.jpg"]
+  },
+  {
+    "id":4,
+    "name":"Domatesli Fesleğenli Pizza",
+    "price":35.99,
+    "contents":"Çeri domates peynir ve fesleğen" ,
+    "img":["https://i.pinimg.com/564x/61/ed/c9/61edc9a5efd524203902e7dbb3b5ff70.jpg"]
+  },
+  {
+    "id":5,
+    "name":"Tek köfteli hamburger",
+    "price":25.99,
+    "contents":"Dana köfte,soğan ,domates,turşu,yeşillikler",
+    "img":["https://i.pinimg.com/564x/a6/d1/e3/a6d1e33fa3360a03241c6402dc1ac347.jpg"]
+  },
+  {
+    "id":6,
+    "name":"Çift köfteli hamburger",
+    "price":39.99,
+    "contents":"Çift dana köfte,chedar peynir,patates",
+    "img":["https://i.pinimg.com/564x/2b/b8/52/2bb8528e8a7b3b0fe4c534c3a0595241.jpg"]
+  },
+  {
+    "id":7,
+    "name":"Tavuk hambuger",
+    "price":25.99,
+    "contents":"Tavuk ,domates,marul,chedar",
+    "img":["https://i.pinimg.com/564x/56/5f/ee/565fee66e8b7932769f5ee466a52ba40.jpg"]
+  },
+  {
+
+    "id":8,
+    "name":"Vejeteryan Hamburger",
+    "price":49.99,
+    "contents":"Vejeteryan köfte,marul,domates,avokado",
+    "img":["https://i.pinimg.com/736x/26/b6/a0/26b6a0a175e4efa1dd2bdcfd61aa9738.jpg"]
+    
+  },
+  {
+
+    "id":9,
+    "name":"Küçük boy patates",
+    "price":24.99,
+    "contents":"Küçük boy patates",
+    "img":["https://i.pinimg.com/564x/68/6b/56/686b56fc74d2be5183058073371f5920.jpg"]
+  },
+  {
+    "id":10,
+    "name":"Büyük boy patates",
+    "price":39.99,
+    "contents":"Büyük boy patates ",
+    "img":["https://i.pinimg.com/564x/cc/b6/b5/ccb6b51c2bcdb117db68f0b40328c6c7.jpg"]
+  }
+  
+]

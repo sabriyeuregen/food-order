@@ -13,7 +13,7 @@ const Header=()=>{
             <div className={style.logo}>{logo}</div>
             <div className={style.title}>{title}</div>
           
-          <nav>
+          <nav className={style.navigation}>
           <NavLink to="/home" /*className={isActiveMenu}*/>Anasayfa</NavLink>
           <NavLink to="/products"/* className={isActiveMenu}*/>Ürünler</NavLink>
           <NavLink to="/contact" /*className={isActiveMenu}*/>İletişim</NavLink>
