@@ -1,10 +1,13 @@
+import style from "./Card.module.css";
+
 const Card=(props)=>{
 
     return(
-        <div>
-       <div>{props.name}</div>
-       <div>{props.price}</div> 
-       <div>{props.contents}</div>
+        <div className={style.card}>
+        <div className={style.img}>{props.img}</div>
+       <div className={style.name}>{props.name}</div>
+       <div className={style.price}>{props.price}</div> 
+       <div className={style.contents}>{props.contents}</div>
         </div>
     )
 }
