@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+  }
+  nav a{
+    text-decoration: none; 
+   
+  }
+  nav a:hover{
+    cursor: pointer;
+  }
+  nav a:visited,
+  nav a:active{
+    color: #3D4249;
+    
+  }
+  nav a.-active{
+    background-color: #F57C00;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+  }
