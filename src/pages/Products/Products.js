@@ -1,12 +1,12 @@
 import Foods from "../../components/Foods/Foods";
+import style from "./Products.module.css";
 
 const Products=()=>{
 
 
     return(
         <div>
-            <h1>Products</h1>
-            <Foods></Foods>
+           <div ><Foods></Foods></div>
         </div>
     )
 }

@@ -1,7 +1,11 @@
-.foods{
- 
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
+.foods__list{
+      
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+        padding: 20px;
+       
+    
 }

@@ -1,6 +1,5 @@
-import {FaShoppingBasket} from "react-icons/fa";
-
-import  "./Header.css";
+import HeaderBasketIcon from "./HeaderBasketIcon";
+import  style from "./Header.module.css";
 import logo from "../../assets/logo.jpg";
 
 const Header=()=>{
@@ -12,11 +11,11 @@ const Header=()=>{
   
 
     return(
-        <div className="header">
-            <div className="header__logo"><img src={logo} alt="Logo"/></div>
-            <div className="header__title">{title}</div>
+        <div className={style.header}>
+            <div className={style.header__logo}><img src={logo} alt="Logo"/></div>
+            <div className={style.header__title}>{title}</div>
             
-           <div className="basket"><FaShoppingBasket></FaShoppingBasket></div>
+           <HeaderBasketIcon></HeaderBasketIcon>
           
           </div>
         

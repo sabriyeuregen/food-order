@@ -1,0 +1,34 @@
+.header{
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 5rem;
+   background-color:white;
+   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+   
+}
+.header__title{
+   align-self:center;
+   font-family:Georgia;
+    font-style:italic;
+    font-size:20px;
+    color:#F57C00;
+ 
+}
+.header__logo{
+   z-index: 1;
+   height: 5rem;
+}
+.basket{
+  color: gray;
+  font-size: 30px;
+  align-self: center;
+  cursor: pointer;
+}
+.basket:hover{
+  color: #F57C00;
+}
+

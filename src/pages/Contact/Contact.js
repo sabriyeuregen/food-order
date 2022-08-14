@@ -1,10 +1,13 @@
-const Contact=()=>{
 
+
+const Contact=(props)=>{
+   
 
     return(
         <div>
             <h1>CONTACT</h1>
-        </div>
+          </div>
+        
     )
 }
 export default Contact;
