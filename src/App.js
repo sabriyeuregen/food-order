@@ -8,6 +8,7 @@ import Products from "./pages/Products/Products";
 import Header from "./components/Header/Header";
 import Navigation from "./components/Navigation/Navigation";
 import BasketCard from "./components/BasketCard/BasketCard";
+import CardProvider from "./store/CardProvider";
 
 
 const App=()=> {
@@ -30,8 +31,10 @@ const App=()=> {
 
   return (
     <div className="App">
+      <CardProvider>
      {basketCardShown && <BasketCard onClose={hideCardHandler} />}
       <Header onShowCard={showCardHandler} />
+      </CardProvider>
      <Navigation></Navigation>
      <Routes>
        <Route path="/home" index element={<Home/>}/>

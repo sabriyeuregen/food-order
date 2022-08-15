@@ -1,6 +1,7 @@
 import Modal from "../Modal/Modal";
 import style from "./BasketCard.module.css";
 
+
 const BasketCard =(props)=>{
  
      const cardItems=[]
