@@ -1,10 +1,10 @@
 import DATA from "../../DATA/data.json"
 import Card from "../Card/Card";
-import style from "./Foods.module.css";
+import style from "./Menu.module.css";
 
 
 
-const Foods=(props)=>{
+const Menu=(props)=>{
  
  
 
@@ -19,4 +19,4 @@ const Foods=(props)=>{
         </div>
     )
 }
-export default Foods;
+export default Menu;

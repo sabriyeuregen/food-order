@@ -1,4 +1,4 @@
-import Foods from "../../components/Foods/Foods";
+import Menu from "../../components/Menu/Menu";
 import style from "./Products.module.css";
 
 const Products=()=>{
@@ -6,7 +6,7 @@ const Products=()=>{
 
     return(
         <div>
-           <div ><Foods></Foods></div>
+           <div ><Menu></Menu></div>
         </div>
     )
 }

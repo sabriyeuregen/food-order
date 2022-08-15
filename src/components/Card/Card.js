@@ -1,5 +1,6 @@
 import style from "./Card.module.css";
-
+import ButtonBasket from "../Button/ButtonBasket";
+import ButtonAmount from "../Button/ButtonAmount";
 
 const Card=(props)=>{
 
@@ -12,7 +13,10 @@ const Card=(props)=>{
         <div className={style.card__name}>{props.name}</div>
         <div className={style.card__price}>{props.price}</div> 
         <div className={style.card__contents}>{props.contents}</div>
- 
+        <div>
+        <ButtonAmount></ButtonAmount>
+        <ButtonBasket></ButtonBasket>
+        </div>
         </div>
     )
 }
