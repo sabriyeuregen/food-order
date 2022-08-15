@@ -1,8 +1,8 @@
-import HeaderBasketIcon from "./HeaderBasketIcon";
+import HeaderBasketButton from "./HeaderBasketButton";
 import  style from "./Header.module.css";
 import logo from "../../assets/logo.jpg";
 
-const Header=()=>{
+const Header = (props) => {
 
  
   const title="GOOD FOOD RESTAURANT";
@@ -15,7 +15,7 @@ const Header=()=>{
             <div className={style.header__logo}><img src={logo} alt="Logo"/></div>
             <div className={style.header__title}>{title}</div>
             
-           <HeaderBasketIcon></HeaderBasketIcon>
+           <HeaderBasketButton onClick={props.onShowCard}/>
           
           </div>
         

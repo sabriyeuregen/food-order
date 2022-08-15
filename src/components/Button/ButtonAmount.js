@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 
-const ButtonAmount=()=>{
+const ButtonAmount=(props)=>{
 
     
     const [amount,setAmount]=useState(1)
