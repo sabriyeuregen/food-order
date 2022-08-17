@@ -1,11 +1,11 @@
 import style from "./Card.module.css";
-import ButtonBasket from "../Button/ButtonBasket";
-import ButtonAmount from "../Button/ButtonAmount";
+import { useBasket } from "../store/BasketContext";
 
 const Card=(props)=>{
 
-    
-   
+   const {addToBasket}=useBasket();
+
+  
 
     return(
         <div className={style.card}>
@@ -14,8 +14,7 @@ const Card=(props)=>{
         <div className={style.card__price}>{props.price}</div> 
         <div className={style.card__contents}>{props.contents}</div>
         <div>
-        <ButtonAmount></ButtonAmount>
-        <ButtonBasket></ButtonBasket>
+        <button onClick={() => addToBasket(data)} >Sepete Ekle</button>
         </div>
         </div>
     )

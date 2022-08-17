@@ -1,15 +1,14 @@
 import Modal from "../Modal/Modal";
 import style from "./BasketCard.module.css";
 
+import { useState } from "react";
 
 const BasketCard =(props)=>{
  
-     const cardItems=[]
-
-
+    
     return(
       <Modal onClose={props.onClose}>
-          {cardItems}
+          
          <div className={style.total}>
             <span>Total Amount</span>
          </div>
