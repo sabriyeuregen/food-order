@@ -34,7 +34,7 @@ const App=()=> {
       <CardProvider>
      {basketCardShown && <BasketCard onClose={hideCardHandler} />}
       <Header onShowCard={showCardHandler} />
-      </CardProvider>
+     
      <Navigation></Navigation>
      <Routes>
        <Route path="/home" index element={<Home/>}/>
@@ -42,7 +42,7 @@ const App=()=> {
        <Route path="/contact" element={<Contact/>} /> 
        <Route path="/products" element={<Products/>} />
         </Routes> 
-     
+        </CardProvider>
       
     </div>
   );
