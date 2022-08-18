@@ -1,31 +1,34 @@
 .card{
  
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 278px;
-  height: 350px;
-   
-  margin: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  
  
   }
   .card__name{
     font-weight: bold;
-    
+    text-align: center;
   }
 
   .card__price{
     font-weight: bold;
     color: #ad5502;
     font-size: 1.25rem;
+    text-align:center;
     
   }
 
   
-  .card__contents{
+  .card__description{
     font-style: italic;
+    padding: 10px;
+    text-align: center;
   }
 
+.card__img{
+  text-align: center;
   
+}  
 
   
 

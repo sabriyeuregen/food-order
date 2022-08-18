@@ -1,0 +1,14 @@
+.button{
+    font: inherit;
+    cursor: pointer;
+    background-color: #8a2b06;
+    border: 1px solid #8a2b06;
+    color: white;
+    padding: 0.50rem 3rem;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.form{
+    text-align: center;
+    padding-bottom: 10px;
+}

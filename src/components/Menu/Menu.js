@@ -8,7 +8,7 @@ const Menu=(props)=>{
  
  
 
-   const foodsList= DATA.map(food=><Card key={food.id} image={<img src={food.image} style={{objectFit :"contain"}} width="200" height="300" alt=""/>} name={food.name} price={food.price} contents={food.contents}/>)
+   const foodsList= DATA.map(food=><Card key={food.id} image={<img src={food.image} style={{objectFit :"contain"}} width="200" height="300" alt=""/>} name={food.name} price={food.price} description={food.description}/>)
 
     return(
         <div >

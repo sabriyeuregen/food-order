@@ -1,7 +1,6 @@
 import { useRef, useState } from 'react';
-
 import CardInput from "./CardInput";
-import style from "./CardItem.module.css";
+import style from "./CardItemForm.module.css";
 
 const CardItemForm = (props) => {
   const [amountIsValid, setAmountIsValid] = useState(true);
@@ -26,10 +25,10 @@ const CardItemForm = (props) => {
   };
 
   return (
-    <form className={StyleSheet.form} onSubmit={submitHandler}>
-      <CardInput
+    <form className={style.form} onSubmit={submitHandler}>
+      <CardInput 
         ref={amountInputRef}
-        label='Amount'
+        label='Miktar'
         input={{
           id: 'amount_' + props.id,
           type: 'number',
@@ -39,7 +38,7 @@ const CardItemForm = (props) => {
           defaultValue: '1',
         }}
       />
-      <button>Sepete Ekle</button>
+      <button className={style.button}>Sepete Ekle</button>
       {!amountIsValid && <p>Please enter a valid amount (1-5).</p>}
     </form>
   );

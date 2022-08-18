@@ -9,7 +9,7 @@ const Navigation=()=>{
      }
 
     return(
-    <div>
+    <div className="navbar">
        <nav >
           <NavLink to="/home" className={isActiveMenu}>Anasayfa</NavLink>
           <NavLink to="/products" className={isActiveMenu}>Ürünler</NavLink>

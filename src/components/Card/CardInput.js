@@ -1,6 +1,5 @@
 import React from 'react';
 import style from "./CardInput.module.css";
-import classes from './CardInput.module.css';
 
 const CardInput = React.forwardRef((props, ref) => {
   return (

@@ -1,13 +1,12 @@
 import { useContext } from 'react';
 
 import CardItemForm from './CardItemForm';
-import style from './CardItem.module.css';
+import style from "./Card.module.css";
 import CardContext from '../../store/basketcard-context';
 
 const Card = (props) => {
+  
   const cardCtx = useContext(CardContext);
-
-  const price = `$${props.price.toFixed(2)}`;
 
   const addToCardHandler = (amount) => {
     cardCtx.addItem({
@@ -19,13 +18,13 @@ const Card = (props) => {
   };
 
   return (
-    <div className={style.meal}>
+    <div className={style.card}>
       <div>
         
-        <div className={style.img}>{props.image}</div>
-        <h3>{props.name}</h3>
-        <div className={style.description}>{props.description}</div>
-        <div className={style.price}>{price}</div>
+        <div className={style.card__img}>{props.image}</div>
+        <h3 className={style.card__name}>{props.name}</h3>
+        <div className={style.card__description}>{props.description}</div>
+        <div className={style.card__price}>{props.price}</div>
       </div>
       <div>
         <CardItemForm id={props.id} onAddToCard={addToCardHandler} />

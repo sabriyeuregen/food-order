@@ -5,7 +5,7 @@ import logo from "../../assets/logo.jpg";
 const Header = (props) => {
 
  
-  const title="GOOD FOOD RESTAURANT";
+  const title="Happy Fast Food";
 
  
   

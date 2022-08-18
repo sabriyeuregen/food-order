@@ -5,11 +5,11 @@ import BasketCardItem from "./BasketCardItem";
 import { useContext } from "react";
 import CardContext from "../../store/basketcard-context";
 
-const BasketCard =(props)=>{
+const BasketCard = (props) => {
  
    const cardCtx = useContext(CardContext);
 
-   const totalAmount = `$${cardCtx.totalAmount.toFixed(2)}`;
+   const totalAmount = `${cardCtx.totalAmount.toFixed(2)}`;
    const hasItems = cardCtx.items.length > 0;
  
    const cardItemRemoveHandler = (id) => {
@@ -40,7 +40,7 @@ const BasketCard =(props)=>{
       <Modal onClose={props.onClose}>
           {cardItems}
          <div className={style.total}>
-            <span>Total Amount</span>
+            <span>Toplam </span>
             <span>{totalAmount}</span>
          </div>
          <div className={style.actions}>
