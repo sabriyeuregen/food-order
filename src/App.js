@@ -8,8 +8,7 @@ import Products from "./pages/Products/Products";
 import Header from "./components/Header/Header";
 import Navigation from "./components/Navigation/Navigation";
 import BasketCard from "./components/BasketCard/BasketCard";
-import CardProvider from "./store/CardProvider";
-
+import { BasketProvider } from "./components/store/BasketContext"; 
 
 const App=()=> {
     
@@ -31,10 +30,13 @@ const App=()=> {
 
   return (
     <div className="App">
-      <CardProvider>
+      <BasketProvider>
      {basketCardShown && <BasketCard onClose={hideCardHandler} />}
       <Header onShowCard={showCardHandler} />
+<<<<<<< HEAD
      
+=======
+>>>>>>> 58eddeb4b3ecf953caae5cb0e8322a1de45838b1
      <Navigation></Navigation>
      <Routes>
        <Route path="/home" index element={<Home/>}/>
@@ -42,7 +44,11 @@ const App=()=> {
        <Route path="/contact" element={<Contact/>} /> 
        <Route path="/products" element={<Products/>} />
         </Routes> 
+<<<<<<< HEAD
         </CardProvider>
+=======
+        </BasketProvider>
+>>>>>>> 58eddeb4b3ecf953caae5cb0e8322a1de45838b1
       
     </div>
   );
