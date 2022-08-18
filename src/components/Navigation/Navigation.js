@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-import "./Navigation.css";
+import style from "./Navigation.module.css";
 const Navigation=()=>{
 
     const isActiveMenu = (data) => {
@@ -9,7 +9,7 @@ const Navigation=()=>{
      }
 
     return(
-    <div className="navbar">
+    <div className={style.navbar}>
        <nav >
           <NavLink to="/home" className={isActiveMenu}>Anasayfa</NavLink>
           <NavLink to="/products" className={isActiveMenu}>Ürünler</NavLink>

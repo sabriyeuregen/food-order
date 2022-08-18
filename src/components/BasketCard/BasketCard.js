@@ -2,16 +2,11 @@ import Modal from "../Modal/Modal";
 import style from "./BasketCard.module.css";
 import BasketCardItem from "./BasketCardItem";
 
-<<<<<<< HEAD
 import { useContext } from "react";
 import CardContext from "../../store/basketcard-context";
-=======
-import { useState } from "react";
->>>>>>> 58eddeb4b3ecf953caae5cb0e8322a1de45838b1
 
 const BasketCard = (props) => {
  
-<<<<<<< HEAD
    const cardCtx = useContext(CardContext);
 
    const totalAmount = `${cardCtx.totalAmount.toFixed(2)}`;
@@ -41,12 +36,9 @@ const BasketCard = (props) => {
     );
    
 
-=======
-    
->>>>>>> 58eddeb4b3ecf953caae5cb0e8322a1de45838b1
     return(
       <Modal onClose={props.onClose}>
-          
+          {cardItems}
          <div className={style.total}>
             <span>Toplam </span>
             <span>{totalAmount}</span>
