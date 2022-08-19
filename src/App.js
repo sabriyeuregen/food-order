@@ -2,7 +2,6 @@ import { Routes,Route} from "react-router-dom";
 import React, {useState} from "react";
 
 import Home from "./pages/Home/Home";
-import AboutUs from "./pages/AboutUs/AboutUs";
 import Contact from "./pages/Contact/Contact";
 import Products from "./pages/Products/Products";
 import Header from "./components/Header/Header";
@@ -37,8 +36,7 @@ const App=()=> {
      
      <Navigation></Navigation>
      <Routes>
-       <Route path="/home" index element={<Home/>}/>
-       <Route path="/aboutus" element={<AboutUs/>}/>
+       <Route path="/"  element={<Home to="/home" />}  />
        <Route path="/contact" element={<Contact/>} /> 
        <Route path="/products" element={<Products/>} />
         </Routes> 

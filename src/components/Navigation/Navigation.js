@@ -11,10 +11,9 @@ const Navigation=()=>{
     return(
     <div className={style.navbar}>
        <nav >
-          <NavLink to="/home" className={isActiveMenu}>Anasayfa</NavLink>
+          <NavLink to="/" className={isActiveMenu}>Anasayfa</NavLink>
           <NavLink to="/products" className={isActiveMenu}>Ürünler</NavLink>
           <NavLink to="/contact" className={isActiveMenu}>İletişim</NavLink>
-          <NavLink to="/aboutus" className={isActiveMenu}>Hakkımızda</NavLink>
        </nav>
 
     </div>
