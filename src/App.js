@@ -1,5 +1,5 @@
-import { Routes,Route} from "react-router-dom";
-import React, {useState} from "react";
+import { Routes, Route } from "react-router-dom";
+import React, { useState } from "react";
 
 import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact/Contact";
@@ -9,41 +9,32 @@ import Navigation from "./components/Navigation/Navigation";
 import BasketCard from "./components/BasketCard/BasketCard";
 import CardProvider from "./store/CardProvider";
 
+const App = () => {
+  const [basketCardShown, setBasketCardShown] = useState(false);
 
-const App=()=> {
-    
-    const [basketCardShown,setBasketCardShown]=useState(false);
+  const showCardHandler = () => {
+    setBasketCardShown(true);
+  };
 
-   const showCardHandler=()=>{
-
-     setBasketCardShown(true);
-   }
-
-   const hideCardHandler=()=>{
-
-      setBasketCardShown(false);
-   }
-
-
-  
-   
+  const hideCardHandler = () => {
+    setBasketCardShown(false);
+  };
 
   return (
     <div className="App">
       <CardProvider>
-     {basketCardShown && <BasketCard onClose={hideCardHandler} />}
-      <Header onShowCard={showCardHandler} />
-     
-     <Navigation></Navigation>
-     <Routes>
-       <Route path="/"  element={<Home to="/home" />}  />
-       <Route path="/contact" element={<Contact/>} /> 
-       <Route path="/products" element={<Products/>} />
-        </Routes> 
-        </CardProvider>
-      
+        {basketCardShown && <BasketCard onClose={hideCardHandler} />}
+        <Header onShowCard={showCardHandler} />
+
+        <Navigation></Navigation>
+        <Routes>
+          <Route path="/" element={<Home to="/home" />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/products" element={<Products />} />
+        </Routes>
+      </CardProvider>
     </div>
   );
-}
+};
 
 export default App;
