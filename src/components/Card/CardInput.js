@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import style from "./CardInput.module.css";
 
 const CardInput = React.forwardRef((props, ref) => {
