@@ -6,6 +6,7 @@ const Menu = (props) => {
   const foodsList = DATA.map((food) => (
     <Card
       key={food.id}
+      id={food.id}
       image={
         <img
           src={food.image}
