@@ -9,11 +9,11 @@
 ![Food Order](src/assets/photos/foodorder.png)
 ![Food Order-Menu componenti](src/assets/photos/foodorder-foods.png)
 
-## Libraries /Kütüphaneler
+## Kütüphaneler
 + React
 + React-router-dom
 
-## Style /Sitil
+## Stil
 + Module CSS
 
 ### Projeyi oluştururken kullandığım kaynaklar
