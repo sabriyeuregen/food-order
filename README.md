@@ -1,4 +1,4 @@
-# Food Order React Project - React ile oluşturduğum yemek sipariş projem
+# Food Order React Project - React İle Oluşturduğum Yemek Sipariş Projem
 
 ## Proje Özeti
  Projeyi oluştururken iki branchta çalıştım.İlk olarak develop branchında geliştirme yaptım ardından main branchında son halini repoya ekledim. Branchlarda her değişiklik yaotığımda commit mesajı eklemeye özen gösterdim.
