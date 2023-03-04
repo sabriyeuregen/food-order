@@ -11,7 +11,7 @@
 
 ## Kütüphaneler
 + React
-+ React-router-dom
++ React-router-dom v6.3
 
 ## Stil
 + Module CSS
