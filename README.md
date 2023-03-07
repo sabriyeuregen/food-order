@@ -13,6 +13,9 @@
 + React
 + React-router-dom v6.3
 
+## State Yönetimi
++ ContextAPI
+
 ## Stil
 + Module CSS
 
